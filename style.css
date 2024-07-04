@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: '_beyond_skytrial';
+    src: url('/fonts/vine-font/beyondskytrial-r079-webfont.woff2') format('woff2'),
+        url('/fonts/vine-font/beyondskytrial-r079-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+main,
+footer {
+    opacity: .99;
+}
+
+body {
+    height: 100%;
+    background-image: url("./photos/forest-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    font-family: '_beyond_skytrial', sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid red;
+    width: 75%;
+    margin: auto;
+    padding: auto;
+    height: 7rem;
+    /* position: sticky; */
+    /* top: 0; */
+    /* Makes the element stick to the top of the viewport */
+    /* z-index: 1000; */
+    /* Ensures it stays above other elements */
+
+}
+
+h1 {
+    font-family: "_beyond_skytrial", sans-serif;
+}
+
+.logo,
+.navbar,
+.nav-btn {
+    margin: auto;
+    padding: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #597445;
+}
+
+a:hover {
+    color: #E7F0DC;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.nav-btn {
+    padding: 10px 40px;
+    border: none;
+    font-size: 1.3rem;
+    background-color: #729762;
+    color: #E7F0DC;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    color: #729762;
+    background-color: #E7F0DC;
+}
+
+main {
+    width: 75%;
+    height: 2000px;
+    border: 1px solid blue;
+    margin: auto;
+    padding: auto;
+}
+
+footer {
+    width: 75%;
+    margin: auto;
+    padding: auto;
+    height: 50px;
+    border: 1px solid green;
+}
